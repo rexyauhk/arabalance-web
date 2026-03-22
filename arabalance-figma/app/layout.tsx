@@ -13,6 +13,11 @@ export const metadata: Metadata = {
   title: "AraBalance",
   description:
     "Discover premium health supplements with an intuitive e-commerce platform offering detailed product insights, certifications, and secure purchasing options.",
+  icons: {
+    icon: "/images/logo.png",
+    shortcut: "/images/logo.png",
+    apple: "/images/logo.png",
+  },
 };
 
 export default function RootLayout({
