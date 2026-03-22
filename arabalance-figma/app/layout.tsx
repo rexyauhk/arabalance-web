@@ -10,7 +10,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "AraBalance website v1",
+  title: "AraBalance",
   description:
     "Discover premium health supplements with an intuitive e-commerce platform offering detailed product insights, certifications, and secure purchasing options.",
 };
