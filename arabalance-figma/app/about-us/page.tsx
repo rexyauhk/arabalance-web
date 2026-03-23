@@ -93,12 +93,16 @@ export default function AboutUsPage() {
                 Natural Source
               </h3>
               <p className="text-center text-lg leading-relaxed text-gray-700">
-                Our L-Arabinose is sustainably extracted from{" "}
-                <span className="font-semibold">corn cob</span> and{" "}
-                <span className="font-semibold">corn skin</span>,
-                transforming agricultural by-products into a
-                revolutionary health solution. This eco-friendly approach
-                supports both your wellness and environmental sustainability.
+                L-Arabinosea Pectin Sugar is a monosaccharide widely existing in
+                plantsIt is a safety sugar and exists in nature. Now the
+                L-arabinose is produced from corn cob and bagasse by hydrolysis,
+                separation and purification. L-arabinose can block the metabolism
+                and transformation of sucrose, and it can be used as an inhibitor
+                of sucrose enzyme, thus enable it has many advantages, such as
+                inhibiting glucose metabolism, lowering blood sugar, improving
+                fasting blood sugar, regulating blood lipids, improving insulin
+                resistance, assisting weight loss and regulating intestinal flora
+                etc., and it has a promising application prospect.
               </p>
             </div>
             <p className="text-center text-lg italic leading-relaxed text-gray-600">

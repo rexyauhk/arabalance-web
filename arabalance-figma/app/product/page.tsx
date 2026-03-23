@@ -240,8 +240,7 @@ export default function ProductPage() {
             Versatile Market Applications
           </h2>
           <p className="mx-auto mb-12 max-w-2xl text-center text-gray-600">
-            Use AraBalance Healthy Sugar in all your favorite recipes without
-            changing the formula. Perfect 1:1 replacement for regular sugar.
+            Use AraBalance Healthy Sugar in all your favorite recipes.
           </p>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
             {applications.map(({ icon: Icon, label }) => (
@@ -255,14 +254,6 @@ export default function ProductPage() {
                 <h3 className="text-xl font-semibold text-gray-900">{label}</h3>
               </div>
             ))}
-          </div>
-          <div className="mt-12 text-center">
-            <div className="inline-block rounded-3xl border-2 border-[#4CAF50] bg-white px-8 py-4">
-              <p className="font-semibold text-[#1A504F]">
-                ✓ No formula changes needed • ✓ Same sweetness level • ✓ Perfect
-                for all recipes
-              </p>
-            </div>
           </div>
         </div>
       </section>
