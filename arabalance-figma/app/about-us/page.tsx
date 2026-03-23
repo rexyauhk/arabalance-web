@@ -95,8 +95,8 @@ export default function AboutUsPage() {
               <p className="text-center text-lg leading-relaxed text-gray-700">
                 Our L-Arabinose is sustainably extracted from{" "}
                 <span className="font-semibold">corn cob</span> and{" "}
-                <span className="font-semibold">bagasse</span> (sugarcane
-                fiber), transforming agricultural by-products into a
+                <span className="font-semibold">corn skin</span>,
+                transforming agricultural by-products into a
                 revolutionary health solution. This eco-friendly approach
                 supports both your wellness and environmental sustainability.
               </p>
