@@ -61,11 +61,6 @@ export default function ProductPage() {
               <br />
               Healthy Sugar
             </h1>
-            <div className="mb-6 rounded-3xl border-2 border-[#1A504F] bg-white p-6">
-              <p className="text-center text-2xl font-bold text-[#1A504F]">
-                95-97% Sucrose + 3-5% L-Arabinose
-              </p>
-            </div>
             <p className="mb-8 leading-relaxed text-gray-600">
               Revolutionary sugar blend that maintains sweetness while reducing
               health impacts through natural enzyme inhibition technology.
