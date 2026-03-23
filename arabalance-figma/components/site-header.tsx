@@ -45,12 +45,12 @@ export function SiteHeader() {
               {label}
             </Link>
           ))}
-          <Link
-            href="/buy-now"
-            className="rounded-3xl bg-[#1A504F] px-6 py-2.5 text-white transition-colors hover:bg-[#143d3c]"
+          <span
+            className="cursor-default rounded-3xl border border-gray-200 bg-gray-50 px-6 py-2.5 text-sm text-gray-500"
+            title="線上購買即將開放"
           >
-            BUY NOW
-          </Link>
+            BUY NOW · 即將開放
+          </span>
         </nav>
       </div>
     </header>
