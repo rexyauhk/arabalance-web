@@ -62,7 +62,7 @@ export default function ProductPage() {
               Healthy Sugar
             </h1>
             <p className="mb-8 leading-relaxed text-gray-600">
-              Revolutionary sugar blend that maintains sweetness while reducing
+              Revolutionary sugar that maintains sweetness while reducing
               health impacts through natural enzyme inhibition technology.
             </p>
             <Link

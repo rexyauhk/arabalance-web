@@ -5,7 +5,7 @@ const items = [
     icon: Award,
     title: "Stabilize Glucose",
     description:
-      "Naturally balance blood sugar levels with our scientifically formulated blend",
+      "Naturally balance blood sugar levels.",
   },
   {
     icon: Leaf,
