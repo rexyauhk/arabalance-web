@@ -4,7 +4,6 @@ import {
   FlaskConical,
   Globe,
   Leaf,
-  Microscope,
   Sparkles,
 } from "lucide-react";
 
@@ -42,7 +41,7 @@ const pillars = [
     title: "Safety",
     description: "Naturally existing in plants",
     detail:
-      "L-Arabinose is a natural component found in various plants, ensuring biological compatibility and safety for human consumption.",
+      "Arabalance is a natural component found in various plants, ensuring biological compatibility and safety for human consumption.",
   },
   {
     icon: FlaskConical,
@@ -84,19 +83,18 @@ export default function AboutUsPage() {
             <div className="mx-auto mb-8 h-1 w-24 bg-[#4CAF50]" />
             <p className="mb-6 text-center text-xl leading-relaxed text-gray-700">
               AraBalance harnesses the power of nature&apos;s innovation through{" "}
-              <span className="font-bold text-[#1A504F]">L-Arabinose</span>, a
-              naturally occurring sugar derived from sustainable agricultural
-              sources.
+              <span className="font-bold text-[#1A504F]">Arabalance Pectin Sugar</span>, a
+              naturally occurring sugar derived from sustainable agricultural sources.
             </p>
             <div className="mb-6 rounded-3xl border-2 border-[#4CAF50] bg-[#4CAF50]/10 p-8">
               <h3 className="mb-4 text-center text-2xl font-bold text-[#1A504F]">
                 Natural Source
               </h3>
               <p className="text-center text-lg leading-relaxed text-gray-700">
-                L-Arabinosea Pectin Sugar is a monosaccharide widely existing in
+                Arabalance Pectin Sugar is a monosaccharide widely existing in
                 plantsIt is a safety sugar and exists in nature. Now the
-                L-arabinose is produced from corn cob and bagasse by hydrolysis,
-                separation and purification. L-arabinose can block the metabolism
+                Arabalance is produced from corn cob and bagasse by hydrolysis,
+                separation and purification. Arabalance can block the metabolism
                 and transformation of sucrose, and it can be used as an inhibitor
                 of sucrose enzyme, thus enable it has many advantages, such as
                 inhibiting glucose metabolism, lowering blood sugar, improving
@@ -153,57 +151,6 @@ export default function AboutUsPage() {
         </div>
       </section>
 
-      <section className="bg-gray-50 px-6 py-16">
-        <div className="mx-auto max-w-5xl">
-          <div className="mb-12 text-center">
-            <Microscope className="mx-auto mb-4 h-16 w-16 text-[#4CAF50]" aria-hidden />
-            <h2 className="text-4xl font-bold text-gray-900">
-              Research Leadership
-            </h2>
-          </div>
-          <div className="rounded-3xl border-2 border-[#1A504F] bg-white p-8 shadow-lg md:p-10">
-            <div className="flex flex-col items-start gap-6 md:flex-row">
-              <div className="shrink-0">
-                <div className="flex h-20 w-20 items-center justify-center rounded-full bg-[#1A504F]">
-                  <FlaskConical className="h-10 w-10 text-white" aria-hidden />
-                </div>
-              </div>
-              <div className="flex-1">
-                <h3 className="mb-3 text-2xl font-bold text-gray-900">
-                  Pioneering Scientific Discovery
-                </h3>
-                <p className="mb-4 text-lg leading-relaxed text-gray-700">
-                  The groundbreaking research by{" "}
-                  <span className="font-bold text-[#1A504F]">
-                    Japanese scholar Seri Kenji
-                  </span>{" "}
-                  has demonstrated the remarkable ability of L-Arabinose to
-                  effectively inhibit sucrose absorption in the human digestive
-                  system.
-                </p>
-                <p className="mb-4 text-lg leading-relaxed text-gray-700">
-                  His extensive studies have provided the scientific foundation
-                  for understanding how L-Arabinose acts as a natural enzyme
-                  inhibitor, blocking the breakdown of sucrose and reducing its
-                  absorption into the bloodstream.
-                </p>
-                <div className="rounded-2xl border-l-4 border-[#4CAF50] bg-[#4CAF50]/10 p-6">
-                  <p className="font-semibold italic text-gray-800">
-                    &quot;L-Arabinose represents a paradigm shift in nutritional
-                    science—a natural compound that offers significant health
-                    benefits through elegant molecular mechanisms.&quot;
-                  </p>
-                  <p className="mt-3 font-medium text-gray-600">
-                    — Research validated by Seri Kenji and international
-                    scientific community
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="px-6 py-16">
         <div className="mx-auto max-w-7xl">
           <div className="mb-12 text-center">
@@ -246,7 +193,7 @@ export default function AboutUsPage() {
           </h2>
           <p className="mb-8 text-xl text-white/90">
             Experience the benefits of scientifically proven, globally trusted
-            L-Arabinose technology
+            Arabalance technology
           </p>
           <Link
             href="/buy-now"
