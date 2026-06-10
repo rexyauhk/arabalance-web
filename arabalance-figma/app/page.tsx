@@ -4,9 +4,6 @@ import { Award } from "lucide-react";
 import { FeatureCards } from "@/components/home/feature-cards";
 
 const certifications = [
-  "KKM Food Grade",
-  "Halal Certified",
-  "Kosher Label",
   "ISO 22000:2018",
   "FDA Registered",
   "ISO 9001:2015",
@@ -41,11 +38,11 @@ export default function HomePage() {
         <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 lg:grid-cols-2">
           <div className="relative z-10">
             <Image
-              src="/images/product-box.jpg"
-              alt="AraBalance product box — Your Natural Sugar Blocker, 21 sachets"
-              width={600}
-              height={600}
-              className="mx-auto w-full max-w-lg"
+              src="/images/arabalance-generated-product-box-white.png"
+              alt="AraBalance product box"
+              width={1448}
+              height={1086}
+              className="mx-auto w-full max-w-lg object-contain"
               priority
             />
           </div>

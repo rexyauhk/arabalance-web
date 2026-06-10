@@ -21,9 +21,13 @@ export function SiteFooter() {
           <div className="flex items-start gap-3">
             <MapPin className="mt-1 h-5 w-5 shrink-0" aria-hidden />
             <p className="text-sm leading-relaxed">
-              Kuala Lumpur,
+              R-1-16B, D&apos;SARA SENTRAL,
               <br />
-              Malaysia
+              JALAN WELFARE, KG BARU SUNGAI BULOH,
+              <br />
+              SEKSYEN U19, 40160,
+              <br />
+              SHAH ALAM, SELANGOR.
             </p>
           </div>
           <div className="flex items-start gap-3">
@@ -32,7 +36,7 @@ export function SiteFooter() {
           </div>
           <div className="flex items-start gap-3">
             <Phone className="mt-1 h-5 w-5 shrink-0" aria-hidden />
-            <p className="text-sm">+(60) 011-2857 3384</p>
+            <p className="text-sm">60-11-28573348</p>
           </div>
         </div>
         <div className="flex flex-col items-center justify-between gap-4 border-t border-white/20 pt-8 md:flex-row">

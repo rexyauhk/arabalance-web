@@ -2,24 +2,6 @@ import { Award, Download } from "lucide-react";
 
 const certifications = [
   {
-    title: "KKM Food Grade Approved",
-    subtitle: "KEMENTERIAN KESIHATAN MALAYSIA (KKM)",
-    description:
-      "AraBalance has received full approval from Malaysia's Ministry of Health for food-grade safety. This certification confirms that our product meets all national health and safety requirements for consumer supplements and is safe for daily consumption.",
-  },
-  {
-    title: "Halal Certified",
-    subtitle: "DISAHKAN HALAL",
-    description:
-      "Our product is certified Halal by recognized Islamic authorities, ensuring that all ingredients and manufacturing processes comply with Islamic dietary laws. This certification guarantees that AraBalance is permissible for Muslim consumers worldwide.",
-  },
-  {
-    title: "Kosher Label Certified",
-    subtitle: "DIPERAKUI KOSHER",
-    description:
-      "AraBalance carries official Kosher certification, verifying that our ingredients and production methods adhere to strict Jewish dietary laws. This certification ensures the highest standards of cleanliness and ingredient sourcing.",
-  },
-  {
     title: "ISO 22000:2018",
     subtitle: "PENGURUSAN KESELAMATAN MAKANAN",
     description:
@@ -40,8 +22,6 @@ const certifications = [
 ];
 
 const downloads = [
-  "Download KKM Certificate (PDF)",
-  "Download Halal Certificate (PDF)",
   "Download ISO Certificates (PDF)",
   "Download All Certificates (ZIP)",
 ];

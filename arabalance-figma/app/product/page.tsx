@@ -16,7 +16,7 @@ const benefits = [
     icon: Award,
     title: "Sugar Blocker",
     description:
-      "Reduces sucrose side effects by inhibiting absorption through L-Arabinose enzyme blocking mechanism",
+      "Reduces sucrose side effects by inhibiting absorption through AraBalance enzyme blocking mechanism",
   },
   {
     icon: Sparkles,
@@ -120,7 +120,7 @@ export default function ProductPage() {
                   Sucrose Intake
                 </h3>
                 <p className="text-center text-sm leading-relaxed text-gray-600">
-                  Sugar consumption with L-Arabinose blend enters the digestive
+                  Sugar consumption with AraBalance blend enters the digestive
                   system
                 </p>
               </div>
@@ -132,7 +132,7 @@ export default function ProductPage() {
                   <span className="text-3xl font-bold text-white">2</span>
                 </div>
                 <h3 className="mb-3 text-center text-xl font-semibold text-gray-900">
-                  L-Arabinose Inhibits Sucrase
+                  AraBalance Inhibits Sucrase
                 </h3>
                 <p className="text-center text-sm leading-relaxed text-gray-600">
                   Natural enzyme blocking prevents sucrose breakdown in small
@@ -177,7 +177,7 @@ export default function ProductPage() {
                   <p className="mt-3 w-24 text-sm">
                     Without
                     <br />
-                    L-Arabinose
+                    AraBalance
                   </p>
                 </div>
                 <div className="flex flex-col items-center text-center">
@@ -187,12 +187,12 @@ export default function ProductPage() {
                   <p className="mt-3 w-24 text-sm">
                     With 3%
                     <br />
-                    L-Arabinose
+                    AraBalance
                   </p>
                 </div>
               </div>
               <p className="flex h-10 items-center justify-center text-center text-sm text-white/80">
-                Adding 3% L-Arabinose inhibits up to 60% of sucrose absorption
+                Adding 3% AraBalance inhibits up to 60% of sucrose absorption
               </p>
             </div>
             <div className="rounded-3xl bg-gradient-to-br from-[#1A504F] to-[#143d3c] p-8 text-white">
