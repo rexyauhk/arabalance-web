@@ -45,11 +45,11 @@ export default function ProductPage() {
         <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 lg:grid-cols-2">
           <div className="relative">
             <Image
-              src="/images/product-box.jpg"
+              src="/images/arabalance-generated-product-box-white.png"
               alt="AraBalance Healthy Sugar"
-              width={500}
-              height={500}
-              className="mx-auto w-full max-w-md"
+              width={1448}
+              height={1086}
+              className="mx-auto w-full max-w-md object-contain"
             />
           </div>
           <div>
