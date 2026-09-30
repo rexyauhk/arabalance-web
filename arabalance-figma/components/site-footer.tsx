@@ -43,7 +43,9 @@ export function SiteFooter() {
           <p className="text-sm">© AraBalance. All Rights Reserved.</p>
           <div className="flex items-center gap-4">
             <a
-              href="#"
+              href="https://www.facebook.com/profile.php?id=61591613168141"
+              target="_blank"
+              rel="noopener noreferrer"
               className="transition-colors hover:text-[#4CAF50]"
               aria-label="Facebook"
             >
