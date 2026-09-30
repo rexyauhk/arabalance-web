@@ -2,6 +2,12 @@ import { Award, Download } from "lucide-react";
 
 const certifications = [
   {
+    title: "KKM Certification",
+    subtitle: "Malaysia Ministry of Health",
+    description: "AraBalance has obtained KKM certification in Malaysia.",
+    reference: "KKM.600-7/2/1 Jld. 599(51)",
+  },
+  {
     title: "ISO 22000:2018",
     subtitle: "PENGURUSAN KESELAMATAN MAKANAN",
     description:
@@ -44,11 +50,11 @@ export default function CertificationsPage() {
 
       <section className="px-6 py-16">
         <div className="mx-auto max-w-7xl">
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
             {certifications.map((c) => (
               <div
                 key={c.title}
-                className="rounded-3xl border-2 border-gray-200 bg-white p-8 transition-all hover:border-[#4CAF50] hover:shadow-lg"
+                className="flex h-full flex-col rounded-3xl border-2 border-gray-200 bg-white p-6 transition-all hover:border-[#4CAF50] hover:shadow-lg"
               >
                 <div className="mb-6 flex justify-center">
                   <div className="flex h-24 w-24 items-center justify-center rounded-full bg-[#1A504F]/10">
@@ -64,6 +70,15 @@ export default function CertificationsPage() {
                 <p className="text-center leading-relaxed text-gray-600">
                   {c.description}
                 </p>
+                {"reference" in c && c.reference && (
+                  <div className="mt-5 rounded-xl border border-gray-200 bg-gray-50 px-3 py-3 text-center">
+                    <p className="mb-1 text-xs text-gray-500">KKM Reference Number</p>
+                    <p className="break-words text-base font-semibold leading-relaxed text-[#1A504F]">
+                      <span className="block">KKM.600-7/2/1</span>
+                      <span className="block">Jld. 599(51)</span>
+                    </p>
+                  </div>
+                )}
               </div>
             ))}
           </div>
