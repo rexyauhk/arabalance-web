@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Award } from "lucide-react";
+import { VideoShowcase } from "@/components/home/video-showcase";
 import { FeatureCards } from "@/components/home/feature-cards";
 
 const certifications = [
@@ -69,6 +70,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <VideoShowcase />
 
       <FeatureCards />
 
