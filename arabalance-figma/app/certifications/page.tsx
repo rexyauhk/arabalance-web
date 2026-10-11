@@ -25,6 +25,14 @@ const certifications = [
     description:
       "We maintain ISO 9001:2015 certification for our quality management systems. This internationally recognized standard ensures consistent product quality, continuous improvement processes, and customer satisfaction at every stage of production and distribution.",
   },
+  {
+    title: "BRCGS Food Safety",
+    subtitle: "GLOBAL STANDARD · ISSUE 9",
+    description:
+      "The production facility is certified to the BRCGS Global Standard Food Safety, Issue 9, with Grade B. This certification covers food safety controls and manufacturing practices within the certified scope.",
+    certificateNumber: "CN26/00007222",
+    validUntil: "01 October 2027",
+  },
 ];
 
 const downloads = [
@@ -50,7 +58,7 @@ export default function CertificationsPage() {
 
       <section className="px-6 py-16">
         <div className="mx-auto max-w-7xl">
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-5">
             {certifications.map((c) => (
               <div
                 key={c.title}
@@ -76,6 +84,18 @@ export default function CertificationsPage() {
                     <p className="break-words text-base font-semibold leading-relaxed text-[#1A504F]">
                       <span className="block">KKM.600-7/2/1</span>
                       <span className="block">Jld. 599(51)</span>
+                    </p>
+                  </div>
+                )}
+                {"certificateNumber" in c && c.certificateNumber && (
+                  <div className="mt-5 rounded-xl border border-gray-200 bg-gray-50 px-3 py-3 text-center">
+                    <p className="mb-1 text-xs text-gray-500">Certificate Number</p>
+                    <p className="break-words text-base font-semibold leading-relaxed text-[#1A504F]">
+                      {c.certificateNumber}
+                    </p>
+                    <p className="mb-1 mt-3 text-xs text-gray-500">Valid Until</p>
+                    <p className="text-sm font-semibold text-[#1A504F]">
+                      {c.validUntil}
                     </p>
                   </div>
                 )}
